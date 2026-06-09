@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technology News - GlobalNation News</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/category.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-top">
+            <div class="container">
+                <div class="header-content">
+                    <div class="logo">
+                        <i class="fas fa-globe"></i>
+                        <span>GlobalNation News</span>
+                    </div>
+                    <div class="header-right">
+                        <div class="search-bar">
+                            <input type="text" placeholder="Search news...">
+                            <button><i class="fas fa-search"></i></button>
+                        </div>
+                        <button class="dark-mode-toggle" id="darkModeToggle">
+                            <i class="fas fa-moon"></i>
+                        </button>
+                        <a href="login.html" class="login-btn">Login</a>
+                        <select class="language-selector">
+                            <option>EN</option>
+                            <option>FR</option>
+                            <option>KI</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <nav class="navbar">
+            <div class="container">
+                <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="rwanda.html">Rwanda</a></li>
+                    <li><a href="africa.html">Africa</a></li>
+                    <li><a href="world.html">World</a></li>
+                    <li><a href="politics.html">Politics</a></li>
+                    <li><a href="business.html">Business</a></li>
+                    <li><a href="technology.html">Technology</a></li>
+                    <li><a href="sports.html">Sports</a></li>
+                    <li><a href="entertainment.html">Entertainment</a></li>
+                    <li><a href="factcheck.html">Fact Check</a></li>
+                    <li><a href="opinion.html">Opinion</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section class="category-hero">
+            <div class="hero-background">
+                <div class="hero-overlay"></div>
+            </div>
+            <div class="hero-content">
+                <h1>Technology</h1>
+                <p>Innovation, AI, software, and digital breakthroughs</p>
+            </div>
+        </section>
+
+        <section class="category-news">
+            <div class="container">
+                <div class="category-tabs">
+                    <button class="tab active" data-category="all">All</button>
+                    <button class="tab" data-category="ai">AI</button>
+                    <button class="tab" data-category="software">Software</button>
+                    <button class="tab" data-category="cybersecurity">Cybersecurity</button>
+                    <button class="tab" data-category="innovation">Innovation</button>
+                </div>
+
+                <div class="news-grid">
+                    <article class="news-card">
+                        <div class="card-image">
+                            <img src="../images/news/tech-1.jpg" alt="News">
+                            <span class="category-badge technology">AI</span>
+                        </div>
+                        <div class="card-content">
+                            <h3>Artificial Intelligence Reaches New Milestone</h3>
+                            <p>Breakthrough model demonstrates advanced reasoning capabilities...</p>
+                            <div class="card-footer">
+                                <span class="date">1 hour ago</span>
+                                <a href="#" class="read-more">Read More →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="news-card">
+                        <div class="card-image">
+                            <img src="../images/news/tech-2.jpg" alt="News">
+                            <span class="category-badge technology">Innovation</span>
+                        </div>
+                        <div class="card-content">
+                            <h3>Quantum Computing Advancement Announced</h3>
+                            <p>Scientists achieve new record in quantum processor capabilities...</p>
+                            <div class="card-footer">
+                                <span class="date">3 hours ago</span>
+                                <a href="#" class="read-more">Read More →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="news-card">
+                        <div class="card-image">
+                            <img src="../images/news/tech-3.jpg" alt="News">
+                            <span class="category-badge technology">Software</span>
+                        </div>
+                        <div class="card-content">
+                            <h3>New Programming Framework Simplifies Development</h3>
+                            <p>Developers gain powerful tools for creating scalable applications...</p>
+                            <div class="card-footer">
+                                <span class="date">5 hours ago</span>
+                                <a href="#" class="read-more">Read More →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="news-card">
+                        <div class="card-image">
+                            <img src="../images/news/tech-4.jpg" alt="News">
+                            <span class="category-badge technology">Cybersecurity</span>
+                        </div>
+                        <div class="card-content">
+                            <h3>New Cybersecurity Protocol Enhances Data Protection</h3>
+                            <p>Industry adopts advanced encryption standards...</p>
+                            <div class="card-footer">
+                                <span class="date">7 hours ago</span>
+                                <a href="#" class="read-more">Read More →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="news-card">
+                        <div class="card-image">
+                            <img src="../images/news/tech-5.jpg" alt="News">
+                            <span class="category-badge technology">AI</span>
+                        </div>
+                        <div class="card-content">
+                            <h3>Machine Learning Models Improve Accuracy</h3>
+                            <p>New training methods achieve unprecedented performance...</p>
+                            <div class="card-footer">
+                                <span class="date">9 hours ago</span>
+                                <a href="#" class="read-more">Read More →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="news-card">
+                        <div class="card-image">
+                            <img src="../images/news/tech-6.jpg" alt="News">
+                            <span class="category-badge technology">Innovation</span>
+                        </div>
+                        <div class="card-content">
+                            <h3>5G Network Expands Globally</h3>
+                            <p>Ultra-fast connectivity revolutionizes mobile communications...</p>
+                            <div class="card-footer">
+                                <span class="date">11 hours ago</span>
+                                <a href="#" class="read-more">Read More →</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>About Us</h4>
+                    <ul>
+                        <li><a href="#">Mission & Vision</a></li>
+                        <li><a href="#">Editorial Team</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="factcheck.html">Fact Check</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 GlobalNation News. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>

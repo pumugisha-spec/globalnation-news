@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World News - GlobalNation News</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/category.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-top">
+            <div class="container">
+                <div class="header-content">
+                    <div class="logo">
+                        <i class="fas fa-globe"></i>
+                        <span>GlobalNation News</span>
+                    </div>
+                    <div class="header-right">
+                        <div class="search-bar">
+                            <input type="text" placeholder="Search news...">
+                            <button><i class="fas fa-search"></i></button>
+                        </div>
+                        <button class="dark-mode-toggle" id="darkModeToggle">
+                            <i class="fas fa-moon"></i>
+                        </button>
+                        <a href="login.html" class="login-btn">Login</a>
+                        <select class="language-selector">
+                            <option>EN</option>
+                            <option>FR</option>
+                            <option>KI</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <nav class="navbar">
+            <div class="container">
+                <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="rwanda.html">Rwanda</a></li>
+                    <li><a href="africa.html">Africa</a></li>
+                    <li><a href="world.html">World</a></li>
+                    <li><a href="politics.html">Politics</a></li>
+                    <li><a href="business.html">Business</a></li>
+                    <li><a href="technology.html">Technology</a></li>
+                    <li><a href="sports.html">Sports</a></li>
+                    <li><a href="entertainment.html">Entertainment</a></li>
+                    <li><a href="factcheck.html">Fact Check</a></li>
+                    <li><a href="opinion.html">Opinion</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section class="category-hero">
+            <div class="hero-background">
+                <div class="hero-overlay"></div>
+            </div>
+            <div class="hero-content">
+                <h1>World News</h1>
+                <p>Global events and international coverage</p>
+            </div>
+        </section>
+
+        <section class="category-news">
+            <div class="container">
+                <div class="category-tabs">
+                    <button class="tab active" data-category="all">All</button>
+                    <button class="tab" data-category="americas">Americas</button>
+                    <button class="tab" data-category="europe">Europe</button>
+                    <button class="tab" data-category="asia">Asia</button>
+                    <button class="tab" data-category="middle-east">Middle East</button>
+                    <button class="tab" data-category="oceania">Oceania</button>
+                </div>
+
+                <div class="news-grid">
+                    <article class="news-card">
+                        <div class="card-image">
+                            <img src="../images/news/world-1.jpg" alt="News">
+                            <span class="category-badge">Europe</span>
+                        </div>
+                        <div class="card-content">
+                            <h3>EU Announces New Climate Policy Framework</h3>
+                            <p>European Union commits to ambitious carbon reduction targets...</p>
+                            <div class="card-footer">
+                                <span class="date">1 hour ago</span>
+                                <a href="#" class="read-more">Read More →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="news-card">
+                        <div class="card-image">
+                            <img src="../images/news/world-2.jpg" alt="News">
+                            <span class="category-badge business">Asia</span>
+                        </div>
+                        <div class="card-content">
+                            <h3>Asian Markets Show Strong Growth This Quarter</h3>
+                            <p>Regional economies demonstrate resilience and expansion...</p>
+                            <div class="card-footer">
+                                <span class="date">3 hours ago</span>
+                                <a href="#" class="read-more">Read More →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="news-card">
+                        <div class="card-image">
+                            <img src="../images/news/world-3.jpg" alt="News">
+                            <span class="category-badge">Americas</span>
+                        </div>
+                        <div class="card-content">
+                            <h3>Americas Summit Focuses on Regional Development</h3>
+                            <p>Countries unite on infrastructure and technology initiatives...</p>
+                            <div class="card-footer">
+                                <span class="date">5 hours ago</span>
+                                <a href="#" class="read-more">Read More →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="news-card">
+                        <div class="card-image">
+                            <img src="../images/news/world-4.jpg" alt="News">
+                            <span class="category-badge">Middle East</span>
+                        </div>
+                        <div class="card-content">
+                            <h3>Middle East Peace Initiative Shows Progress</h3>
+                            <p>Diplomatic efforts advance regional stability...</p>
+                            <div class="card-footer">
+                                <span class="date">7 hours ago</span>
+                                <a href="#" class="read-more">Read More →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="news-card">
+                        <div class="card-image">
+                            <img src="../images/news/world-5.jpg" alt="News">
+                            <span class="category-badge technology">Technology</span>
+                        </div>
+                        <div class="card-content">
+                            <h3>Global Tech Giants Collaborate on AI Safety</h3>
+                            <p>International cooperation advances responsible AI development...</p>
+                            <div class="card-footer">
+                                <span class="date">9 hours ago</span>
+                                <a href="#" class="read-more">Read More →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="news-card">
+                        <div class="card-image">
+                            <img src="../images/news/world-6.jpg" alt="News">
+                            <span class="category-badge">Oceania</span>
+                        </div>
+                        <div class="card-content">
+                            <h3>Pacific Nations Unite on Climate Action</h3>
+                            <p>Regional alliance strengthens commitment to environmental protection...</p>
+                            <div class="card-footer">
+                                <span class="date">11 hours ago</span>
+                                <a href="#" class="read-more">Read More →</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>About Us</h4>
+                    <ul>
+                        <li><a href="#">Mission & Vision</a></li>
+                        <li><a href="#">Editorial Team</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="factcheck.html">Fact Check</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 GlobalNation News. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
