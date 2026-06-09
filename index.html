@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GlobalNation News - Breaking News & Analysis</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="header-top">
+            <div class="container">
+                <div class="header-content">
+                    <div class="logo">
+                        <i class="fas fa-globe"></i>
+                        <span>GlobalNation News</span>
+                    </div>
+                    <div class="header-right">
+                        <div class="search-bar">
+                            <input type="text" placeholder="Search news...">
+                            <button><i class="fas fa-search"></i></button>
+                        </div>
+                        <button class="dark-mode-toggle" id="darkModeToggle">
+                            <i class="fas fa-moon"></i>
+                        </button>
+                        <button class="login-btn">Login</button>
+                        <select class="language-selector">
+                            <option>EN</option>
+                            <option>FR</option>
+                            <option>KI</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- BREAKING NEWS TICKER -->
+        <div class="breaking-news-ticker">
+            <div class="ticker-label">
+                <span class="pulse"></span>
+                BREAKING NEWS
+            </div>
+            <div class="ticker-content">
+                <marquee>
+                    🔴 Major developments in international politics | 🌍 New climate agreement reached | 💼 Tech sector shows growth | ⚽ Sports updates from around the globe
+                </marquee>
+            </div>
+        </div>
+
+        <!-- NAVIGATION -->
+        <nav class="navbar">
+            <div class="container">
+                <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="pages/rwanda.html">Rwanda</a></li>
+                    <li><a href="pages/africa.html">Africa</a></li>
+                    <li><a href="pages/world.html">World</a></li>
+                    <li><a href="pages/politics.html">Politics</a></li>
+                    <li><a href="pages/business.html">Business</a></li>
+                    <li><a href="pages/technology.html">Technology</a></li>
+                    <li><a href="pages/sports.html">Sports</a></li>
+                    <li><a href="pages/entertainment.html">Entertainment</a></li>
+                    <li><a href="pages/factcheck.html">Fact Check</a></li>
+                    <li><a href="pages/opinion.html">Opinion</a></li>
+                    <li><a href="pages/contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main class="main-content">
+        <!-- HERO SECTION -->
+        <section class="hero" id="home">
+            <div class="hero-background">
+                <div class="hero-overlay"></div>
+                <img src="images/hero/main-hero.jpg" alt="Hero Background">
+            </div>
+            <div class="hero-content">
+                <span class="hero-category">Featured Story</span>
+                <h1 class="hero-headline">Global Leaders Meet to Discuss Future AI Regulations</h1>
+                <p class="hero-description">World powers convene to establish international frameworks for artificial intelligence development and deployment.</p>
+                <button class="read-more-btn">Read Full Story</button>
+            </div>
+        </section>
+
+        <!-- TOP STORIES -->
+        <section class="top-stories">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Top Stories</h2>
+                    <a href="#" class="view-all">View All →</a>
+                </div>
+                <div class="stories-grid">
+                    <article class="news-card">
+                        <div class="card-image">
+                            <img src="images/news/news-1.jpg" alt="News">
+                            <span class="category-badge">Politics</span>
+                        </div>
+                        <div class="card-content">
+                            <h3>New Trade Agreement Signed Between Nations</h3>
+                            <p>Historic agreement opens new opportunities for economic cooperation...</p>
+                            <div class="card-footer">
+                                <span class="date">2 hours ago</span>
+                                <a href="#" class="read-more">Read More →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="news-card">
+                        <div class="card-image">
+                            <img src="images/news/news-2.jpg" alt="News">
+                            <span class="category-badge business">Business</span>
+                        </div>
+                        <div class="card-content">
+                            <h3>Tech Startup Raises $100M in Series B Funding</h3>
+                            <p>Innovation in fintech sector continues to attract major investors...</p>
+                            <div class="card-footer">
+                                <span class="date">4 hours ago</span>
+                                <a href="#" class="read-more">Read More →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="news-card">
+                        <div class="card-image">
+                            <img src="images/news/news-3.jpg" alt="News">
+                            <span class="category-badge technology">Technology</span>
+                        </div>
+                        <div class="card-content">
+                            <h3>Breakthrough in Quantum Computing Announced</h3>
+                            <p>Scientists achieve new milestone in quantum processor development...</p>
+                            <div class="card-footer">
+                                <span class="date">6 hours ago</span>
+                                <a href="#" class="read-more">Read More →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="news-card">
+                        <div class="card-image">
+                            <img src="images/news/news-4.jpg" alt="News">
+                            <span class="category-badge health">Health</span>
+                        </div>
+                        <div class="card-content">
+                            <h3>New Medical Treatment Shows Promising Results</h3>
+                            <p>Clinical trials demonstrate effectiveness of innovative therapy...</p>
+                            <div class="card-footer">
+                                <span class="date">8 hours ago</span>
+                                <a href="#" class="read-more">Read More →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="news-card">
+                        <div class="card-image">
+                            <img src="images/news/news-5.jpg" alt="News">
+                            <span class="category-badge sports">Sports</span>
+                        </div>
+                        <div class="card-content">
+                            <h3>Championship Finals: Unexpected Victory</h3>
+                            <p>Underdog team claims historic championship title...</p>
+                            <div class="card-footer">
+                                <span class="date">1 hour ago</span>
+                                <a href="#" class="read-more">Read More →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="news-card">
+                        <div class="card-image">
+                            <img src="images/news/news-6.jpg" alt="News">
+                            <span class="category-badge climate">Climate</span>
+                        </div>
+                        <div class="card-content">
+                            <h3>Global Carbon Emissions Drop Significantly</h3>
+                            <p>Renewable energy adoption accelerates worldwide impact...</p>
+                            <div class="card-footer">
+                                <span class="date">3 hours ago</span>
+                                <a href="#" class="read-more">Read More →</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- LATEST NEWS -->
+        <section class="latest-news">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Latest News</h2>
+                </div>
+                <div class="news-list">
+                    <article class="news-item">
+                        <img src="images/news/latest-1.jpg" alt="News">
+                        <div class="news-item-content">
+                            <span class="category">World</span>
+                            <h4>International Summit Addresses Climate Crisis</h4>
+                            <p>World leaders gather to discuss climate action strategies and commitments...</p>
+                            <span class="time">30 minutes ago</span>
+                        </div>
+                    </article>
+
+                    <article class="news-item">
+                        <img src="images/news/latest-2.jpg" alt="News">
+                        <div class="news-item-content">
+                            <span class="category">Africa</span>
+                            <h4>African Innovation Hub Launches New Incubator Program</h4>
+                            <p>Supporting 50 startups with funding and mentorship to drive economic growth...</p>
+                            <span class="time">1 hour ago</span>
+                        </div>
+                    </article>
+
+                    <article class="news-item">
+                        <img src="images/news/latest-3.jpg" alt="News">
+                        <div class="news-item-content">
+                            <span class="category">Education</span>
+                            <h4>New Educational Initiative Reaches 100,000 Students</h4>
+                            <p>Digital learning platform expands access to quality education across regions...</p>
+                            <span class="time">2 hours ago</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- NEWS EXPLAINED -->
+        <section class="news-explained">
+            <div class="container">
+                <div class="section-header">
+                    <h2>News Explained</h2>
+                    <p class="subtitle">Complex stories made simple</p>
+                </div>
+                <article class="explained-card">
+                    <div class="explained-image">
+                        <img src="images/news/explained-1.jpg" alt="Explained">
+                    </div>
+                    <div class="explained-content">
+                        <h3>Understanding the New Trade Agreement</h3>
+                        <div class="explained-sections">
+                            <div class="explained-item">
+                                <h4>❓ What Happened?</h4>
+                                <p>Fifteen nations signed a comprehensive trade agreement aimed at reducing tariffs and promoting economic integration across the region.</p>
+                            </div>
+                            <div class="explained-item">
+                                <h4>📋 Why It Matters?</h4>
+                                <p>This agreement will boost economic growth, create jobs, and strengthen diplomatic ties between participating nations.</p>
+                            </div>
+                            <div class="explained-item">
+                                <h4>👥 Who Is Affected?</h4>
+                                <p>Businesses, workers, consumers, and economies of all participating countries will benefit from increased trade opportunities.</p>
+                            </div>
+                            <div class="explained-item">
+                                <h4>🔮 What Happens Next?</h4>
+                                <p>Nations will begin implementing the agreement in phases, with full deployment expected within 18 months.</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- FACT CHECK -->
+        <section class="fact-check">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Fact Check Center</h2>
+                    <p class="subtitle">Fighting misinformation, building trust</p>
+                </div>
+                <div class="factcheck-grid">
+                    <article class="factcheck-card true">
+                        <div class="factcheck-status">✓ TRUE</div>
+                        <h4>Climate Records: 2024 Hottest Year on Record</h4>
+                        <p>Verified: Global temperature data confirms 2024 as the hottest year since records began...</p>
+                        <a href="#">Full Verification →</a>
+                    </article>
+
+                    <article class="factcheck-card false">
+                        <div class="factcheck-status">✗ FALSE</div>
+                        <h4>Tech Giant Did Not Shut Down Operations</h4>
+                        <p>Debunked: The viral claim about a major tech company closing is completely false...</p>
+                        <a href="#">Full Verification →</a>
+                    </article>
+
+                    <article class="factcheck-card misleading">
+                        <div class="factcheck-status">⚠ MISLEADING</div>
+                        <h4>Partial Context Missing from Economic Report</h4>
+                        <p>Misleading: While unemployment fell, the context of job quality changes is absent...</p>
+                        <a href="#">Full Verification →</a>
+                    </article>
+
+                    <article class="factcheck-card under-review">
+                        <div class="factcheck-status">🔍 UNDER REVIEW</div>
+                        <h4>New Vaccine Efficacy Claims Being Verified</h4>
+                        <p>Pending: Our team is verifying recent claims about vaccine effectiveness...</p>
+                        <a href="#">Full Verification →</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- AFRICA INNOVATION HUB -->
+        <section class="africa-innovation">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Africa Innovation Hub</h2>
+                    <p class="subtitle">Showcasing African talent and innovation</p>
+                </div>
+                <div class="innovation-grid">
+                    <article class="innovation-card">
+                        <img src="images/news/innovation-1.jpg" alt="Startup">
+                        <div class="innovation-content">
+                            <span class="badge">Startup</span>
+                            <h4>AgriTech Startup Transforms Farming</h4>
+                            <p>Using AI to optimize crop yields and reduce resource waste across East Africa...</p>
+                            <div class="innovation-meta">
+                                <span>🚀 Funding: $5M</span>
+                                <span>📍 Kenya</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="innovation-card">
+                        <img src="images/news/innovation-2.jpg" alt="Startup">
+                        <div class="innovation-content">
+                            <span class="badge">Young Entrepreneur</span>
+                            <h4>Fintech Platform Reaches 1M Users</h4>
+                            <p>Mobile banking solution bringing financial services to underbanked communities...</p>
+                            <div class="innovation-meta">
+                                <span>💼 Users: 1M+</span>
+                                <span>📍 Nigeria</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="innovation-card">
+                        <img src="images/news/innovation-3.jpg" alt="Startup">
+                        <div class="innovation-content">
+                            <span class="badge">Technology</span>
+                            <h4>AI Education Platform for Africa</h4>
+                            <p>Democratizing AI learning with affordable courses for African students...</p>
+                            <div class="innovation-meta">
+                                <span>📚 Students: 50K+</span>
+                                <span>📍 South Africa</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- POSITIVE NEWS -->
+        <section class="positive-news">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Positive News</h2>
+                    <p class="subtitle">Inspiring stories that restore hope</p>
+                </div>
+                <div class="positive-grid">
+                    <article class="positive-card">
+                        <img src="images/news/positive-1.jpg" alt="Positive">
+                        <span class="positive-category">Education Success</span>
+                        <h4>School Scholarship Program Transforms 1,000 Lives</h4>
+                        <p>Underprivileged students now have access to quality education and opportunities...</p>
+                    </article>
+
+                    <article class="positive-card">
+                        <img src="images/news/positive-2.jpg" alt="Positive">
+                        <span class="positive-category">Community Impact</span>
+                        <h4>Local Initiative Plants 100,000 Trees</h4>
+                        <p>Community comes together to combat climate change through environmental action...</p>
+                    </article>
+
+                    <article class="positive-card">
+                        <img src="images/news/positive-3.jpg" alt="Positive">
+                        <span class="positive-category">Innovation</span>
+                        <h4>Solar Power Reaches Remote Villages</h4>
+                        <p>Renewable energy brings electricity and opportunity to isolated communities...</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- CITIZEN REPORTER -->
+        <section class="citizen-reporter">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Citizen Reporter</h2>
+                    <p class="subtitle">Your stories matter. Share what's happening in your community</p>
+                </div>
+                <div class="reporter-grid">
+                    <div class="reporter-card">
+                        <i class="fas fa-camera"></i>
+                        <h3>Submit Photos</h3>
+                        <p>Share photos from your community</p>
+                        <button class="submit-btn">Submit Photos</button>
+                    </div>
+                    <div class="reporter-card">
+                        <i class="fas fa-video"></i>
+                        <h3>Submit Videos</h3>
+                        <p>Share videos of local events</p>
+                        <button class="submit-btn">Submit Videos</button>
+                    </div>
+                    <div class="reporter-card">
+                        <i class="fas fa-pen-fancy"></i>
+                        <h3>Submit Story</h3>
+                        <p>Tell us your local news story</p>
+                        <button class="submit-btn">Submit Story</button>
+                    </div>
+                    <div class="reporter-card">
+                        <i class="fas fa-users"></i>
+                        <h3>Community Reports</h3>
+                        <p>Read stories from your neighbors</p>
+                        <button class="submit-btn">View Reports</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TRENDING STORIES -->
+        <section class="trending">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Trending Now</h2>
+                </div>
+                <div class="trending-grid">
+                    <div class="trending-item">
+                        <div class="trending-rank">1</div>
+                        <div class="trending-content">
+                            <h4>Most Read This Week</h4>
+                            <p>Global Leaders Meet to Discuss Future AI Regulations</p>
+                            <span class="trending-meta">45.2K reads</span>
+                        </div>
+                    </div>
+                    <div class="trending-item">
+                        <div class="trending-rank">2</div>
+                        <div class="trending-content">
+                            <h4>Most Shared Today</h4>
+                            <p>New Trade Agreement Signed Between Nations</p>
+                            <span class="trending-meta">28.9K shares</span>
+                        </div>
+                    </div>
+                    <div class="trending-item">
+                        <div class="trending-rank">3</div>
+                        <div class="trending-content">
+                            <h4>Trending Topics</h4>
+                            <p>Quantum Computing Breakthroughs</p>
+                            <span class="trending-meta">Trending #3</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- MULTIMEDIA CENTER -->
+        <section class="multimedia">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Multimedia Center</h2>
+                </div>
+                <div class="multimedia-grid">
+                    <div class="multimedia-card">
+                        <div class="multimedia-icon">
+                            <i class="fas fa-play-circle"></i>
+                        </div>
+                        <h3>Video News</h3>
+                        <p>Latest news in video format</p>
+                        <a href="#">Watch Videos →</a>
+                    </div>
+                    <div class="multimedia-card">
+                        <div class="multimedia-icon">
+                            <i class="fas fa-images"></i>
+                        </div>
+                        <h3>Photo Gallery</h3>
+                        <p>Visual stories from around the world</p>
+                        <a href="#">View Gallery →</a>
+                    </div>
+                    <div class="multimedia-card">
+                        <div class="multimedia-icon">
+                            <i class="fas fa-podcast"></i>
+                        </div>
+                        <h3>Podcasts</h3>
+                        <p>Audio stories and discussions</p>
+                        <a href="#">Listen Now →</a>
+                    </div>
+                    <div class="multimedia-card">
+                        <div class="multimedia-icon">
+                            <i class="fas fa-broadcast-tower"></i>
+                        </div>
+                        <h3>Live Coverage</h3>
+                        <p>Watch breaking news as it happens</p>
+                        <a href="#">Watch Live →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- NEWSLETTER -->
+        <section class="newsletter">
+            <div class="container">
+                <div class="newsletter-content">
+                    <h2>Stay Updated</h2>
+                    <p>Subscribe to our newsletter and get the latest news delivered to your inbox</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Enter your email" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                    <p class="newsletter-note">We respect your privacy. Unsubscribe anytime.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>About Us</h4>
+                    <ul>
+                        <li><a href="#">Mission & Vision</a></li>
+                        <li><a href="#">Editorial Team</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Advertise</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Fact Check</a></li>
+                        <li><a href="#">Africa Innovation</a></li>
+                        <li><a href="#">Citizen Reporter</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                        <li><a href="#">Code of Ethics</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 GlobalNation News. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
